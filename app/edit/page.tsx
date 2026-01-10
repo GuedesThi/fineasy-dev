@@ -4,13 +4,12 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import {
   PlusCircle,
-  Wallet,
   ArrowDownCircle,
   ArrowUpCircle,
   Tag,
   X,
   ArrowLeft,
-  LayoutDashboard,
+  List,
 } from "lucide-react";
 
 // formato de cada transação armazenada no LocalStorage
@@ -122,6 +121,17 @@ export default function Edit() {
 
   return (
     <div className="p-10">
+      <header className="flex justify-between items-center mb-10">
+        <Link
+          href="/"
+          className="flex items-center gap-2 text-slate-500 hover:text-indigo-600 font-medium"
+        >
+          <ArrowLeft size={20} /> Voltar
+        </Link>
+        <h1 className="text-2xl font-bold flex items-center gap-2">
+          <List className="text-indigo-600" /> Registros
+        </h1>
+      </header>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
         {/* formulário de transição */}
         <section className="bg-white p-5 md:p-6 rounded-2xl shadow-sm border border-slate-200">
