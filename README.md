@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Fineasy - Controle Financeiro Offline-First
 
-First, run the development server:
+**Fineasy** é uma aplicação de gestão financeira pessoal focada em ser raṕida, simples e prática. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Aqui seus dados são só seus, jamais saindo de sua máquina (**LocalStorage**), não tendo problemas de performance (**latência zero**) diferente de serviços que lidam com arquivos pesados ou banco de dados. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#
+# 🛠️ Tecnologias utilizadas
+ - [Next.js 14 (App Router)](https://nextjs.org/)
+ - [TypeScript](https://www.typescriptlang.org/)
+ - [Recharts (Dashboards)](https://recharts.github.io/)
+ - [Lucide (Ícones)](https://lucide.dev/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#
+# 📋 Funcionalidades
+ [x] Cadastro de transações (Entrada/Saída).
 
-## Learn More
+[x] Categorização de gastos e tags extras.
 
-To learn more about Next.js, take a look at the following resources:
+[x] Dashboard com saldo total, entradas e saídas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[x] Histórico recente com opção de exclusão.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[x] Gráficos de comparativo mensal e gastos por categoria.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
